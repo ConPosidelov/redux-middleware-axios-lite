@@ -400,6 +400,20 @@ they will overwrite the corresponding parameters inside the `config` object.
 |  onResponse   | function  |    any       |        | custom handler after successful HTTP request takes as an argument **respons** object |
 | onFailure     | function  |    any       |             | custom handler after failed HTTP request takes as an argument **error** object |
 
+## Tests 
+
+To do
+
+## Examples
+  
+To do
+
+
+## License
+
+This project is licensed under the MIT license, Copyright (c) 2018 Const Posidelov. For more information see `LICENSE.md`.
+
+
                    
 
 
