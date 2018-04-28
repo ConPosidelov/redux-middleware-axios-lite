@@ -391,11 +391,8 @@ they will overwrite the corresponding parameters inside the `config` object.
 | url           | string   |           |  '/'                          | add to baseURL param          |   
 | method        | string   |           |     'get'                     |    HTTP metod                 |
 | entity        | string   |     any   |    'entity'                   |    prefix to action types     | 
-                |           |              |                               |                                
-payloadStyle    |   string  |   'plain',   |    'plain'                    | define action.payload style
-                |           |   'complex'  |                               |                            
-                |           |              |                               |
-suffixes        |  array    |    any       |[REQUEST','SUCCESS','FAILURE'] | suffixes to action types   
+| payloadStyle  | string   |'plain','complex'|   'plain'               | define action.payload style   |
+| suffixes      |  array   |    any    |[REQUEST','SUCCESS','FAILURE'] | suffixes to action types      |
                 |           |              |                               |                            
 requestAction   |  object   |    any       |                               | define action before HTTP request  
                 |           |              |                               |                                   
