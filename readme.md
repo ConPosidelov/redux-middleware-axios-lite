@@ -387,7 +387,7 @@ they will overwrite the corresponding parameters inside the `config` object.
             default values
 
 NAME            |    TYPE   |    VALUES    |  DEFAULT VAL                  |    DESCRIPTION     
-________________|___________|______________|_____________________________  |____________________________
+----------------|-----------|--------------|-------------------------------|---------------------------
 
 url             |   string  |              |     '/'                       |    add to baseURL param       
                 |           |              |                               |                             
@@ -415,7 +415,7 @@ onResponse      | function  |    any       |                               | cus
 onFailure       | function  |    any       |                               | custom handler after failed HTTP request
                 |           |              |                               | takes as an argument **error** object
                 |           |              |                               |                                             
----------------------------------------------------------------------------------------------------------------------------
+
 
 
 
