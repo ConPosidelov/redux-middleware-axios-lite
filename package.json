@@ -1,0 +1,29 @@
+{
+  "name": "redux-middleware-axios-lite",
+  "version": "0.1.0",
+  "description": "It simplifies to manage actions when we works with rest API",
+  "main": "./dist/bandle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/index.js --presets babel-preset-env --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dead-drunk/redux-middleware-axios-lite"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "fetch",
+    "axios",
+    "react",
+    "api"
+  ],
+  "author": "conPosidelov",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+  
+}
