@@ -391,24 +391,18 @@ they will overwrite the corresponding parameters inside the `config` object.
 | url           | string   |           |  '/'                          | add to baseURL param          |   
 | method        | string   |           |     'get'                     |    HTTP metod                 |
 | entity        | string   |     any   |    'entity'                   |    prefix to action types     | 
-| payloadStyle  | string   |'plain','complex'|   'plain'               | define action.payload style   |
+| payloadStyle  | string   |'plain', 'complex'|   'plain'               | define action.payload style   |
 | suffixes      |  array   |    any    |[REQUEST','SUCCESS','FAILURE'] | suffixes to action types      |
-                |           |              |                               |                            
-requestAction   |  object   |    any       |                               | define action before HTTP request  
-                |           |              |                               |                                   
-successAction   |  object   |    any       |                               | define action after successful HTTP request
-                |           |              |                               |                                  
-failureAction   |  object   |    any       |                               | define action after failed HTTP request
-                |           |              |                               |                                              
-onSuccess       | function  |    any       |                               | custom handler after successful HTTP request
-                |           |              |                               | takes as an argument **respons.data** object
-                |           |              |                               |                                                   
-onResponse      | function  |    any       |                               | custom handler after successful HTTP request
-                |           |              |                               | takes as an argument **respons** object
-                |           |              |                               |                                              
-onFailure       | function  |    any       |                               | custom handler after failed HTTP request
-                |           |              |                               | takes as an argument **error** object
-                |           |              |                               |                                             
+| requestAction |  object  |    any    |                               | define action before HTTP request | 
+| successAction |  object   |    any       |                    | define action after successful HTTP request |
+| failureAction |  object   |    any       |                        | define action after failed HTTP request |
+| onSuccess     | function  |    any       |                        | custom handler after successful HTTP request |
+|               |           |              |                               | takes as an argument **respons.data** object |
+|  onResponse   | function  |    any       |                               | custom handler after successful HTTP request |
+|               |           |              |                               | takes as an argument **respons** object      |
+| onFailure     | function  |    any       |                               | custom handler after failed HTTP request     |
+|                |           |              |                               | takes as an argument **error** object   |
+                   
 
 
 
