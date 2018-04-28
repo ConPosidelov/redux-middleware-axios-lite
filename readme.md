@@ -386,14 +386,11 @@ they will overwrite the corresponding parameters inside the `config` object.
         Then:
             default values
 
-NAME            |    TYPE   |    VALUES    |  DEFAULT VAL                  |    DESCRIPTION     
-----------------|-----------|--------------|-------------------------------|---------------------------
-
-url             |   string  |              |     '/'                       |    add to baseURL param       
-                |           |              |                               |                             
-method          |   string  |              |     'get'                     |    HTTP metod               
-                |           |              |                               |                           
-entity          |   string  |     any      |    'entity'                   |    prefix to action types   
+| NAME          |   TYPE   |  VALUES   |   DEFAULT VAL                 |   DESCRIPTION                 |   
+| ------------- | -------- | --------- | ----------------------------- | ----------------------------- |
+| url           | string   |           |  '/'                          | add to baseURL param          |   
+| method        | string   |           |     'get'                     |    HTTP metod                 |
+| entity        | string   |     any   |    'entity'                   |    prefix to action types     | 
                 |           |              |                               |                                
 payloadStyle    |   string  |   'plain',   |    'plain'                    | define action.payload style
                 |           |   'complex'  |                               |                            
